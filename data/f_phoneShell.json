@@ -1,0 +1,811 @@
+{
+    "page1":[
+        {
+            "class": "平板配件",
+            "Nprice": "899 ",
+            "Yprice": "",
+            "code": "f_z1",
+            "text": "",
+            "pic": "",
+            "num":"38",
+            "goodsColor": [
+                {
+                    "type": "小米平板4 智能翻盖支架保护套 黑色",
+                    "color": "img/f_img/f_img10108.jpg"
+                },{
+                    "type": "小米平板4 智能翻盖支架保护套 灰色 ",
+                    "color": "img/f_img/f_img10109.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "title": "小米9 硅胶保护套 蓝色",
+            "img": "img/f_img/f_img10007.jpg",
+            "Nprice": "39",
+            "Yprice": "",
+            "code": "f_z2",
+            "text": "",
+            "pic": "",
+            "num":"2",
+            "goodsColor": [
+                {
+                    "type": "Redmi K20系列 幻境之心保护壳 黄色",
+                    "color": "img/f_img/f_img10006.jpg"
+                },
+                {
+                    "type": "Redmi K20系列 幻境之心保护壳 紫色",
+                    "color": "img/f_img/f_img10007.jpg"
+                },
+                {
+                    "type": "Redmi K20系列 幻境之心保护壳 红色 ",
+                    "color": "img/f_img/f_img10008.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "49",
+            "Yprice": "",
+            "code": "f_z3",
+            "text": "",
+            "pic": "",
+            "num":"3",
+            "goodsColor": [
+                {
+                    "type": "小米9 Pro 5G 斜纹保护壳 睿智黑",
+                    "color": "img/f_img/f_img10009.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "39",
+            "Yprice": "",
+            "code": "f_z4",
+            "text": "",
+            "pic": "",
+            "num":"4",
+            "goodsColor": [
+                {
+                    "type": "Redmi Note 8 Pro 极简摩纹手机壳 黑色",
+                    "color": "img/f_img/f_img10010.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "499",
+            "Yprice": "",
+            "code": "f_z5",
+            "text": "",
+            "pic": "img/f_img/f_parts58.png",
+            "num":"5",
+            "goodsColor": [
+                {
+                    "type": "CC星芒钻幕壳 小米CC 9 满天星",
+                    "color": "img/f_img/f_img10011.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "49",
+            "Yprice": "",
+            "code": "f_z6",
+            "text": "新品",
+            "pic": "",
+            "num":"6",
+            "goodsColor": [
+                {
+                    "type": "小米 CC9 高透果冻保护壳 透明",
+                    "color": "img/f_img/f_img10012.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "49",
+            "Yprice": "",
+            "code": "f_z7",
+            "text": "",
+            "pic": "",
+            "num":"7",
+            "goodsColor": [
+                {
+                    "type": "小米CC9 荧光色高透果冻保护壳 荧光绿",
+                    "color": "img/f_img/f_img10013.jpg"
+                },
+                {
+                    "type": "小米CC9 荧光色高透果冻保护壳 荧光粉",
+                    "color": "img/f_img/f_img10014.jpg"
+                },
+                {
+                    "type": "小米CC9 荧光色高透果冻保护壳 荧光橙",
+                    "color": "img/f_img/f_img10015.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "199",
+            "Yprice": "",
+            "code": "f_z8",
+            "text": "",
+            "pic": "",
+            "num":"8",
+            "goodsColor": [
+                {
+                    "type": "小仙女心愿手链保护壳 透明",
+                    "color": "img/f_img/f_img10016.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "49",
+            "Yprice": "",
+            "code": "f_z9",
+            "text": "",
+            "pic": "",
+            "num":"9",
+            "goodsColor": [
+                {
+                    "type": "小米CC9e 高透果冻保护壳 透明",
+                    "color": "img/f_img/f_img10017.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "49",
+            "Yprice": "",
+            "code": "f_z10",
+            "text": "",
+            "pic": "",
+            "num":"10",
+            "goodsColor": [
+                {
+                    "type": "小米CC9e 荧光色高透保护壳 荧光粉",
+                    "color": "img/f_img/f_img10018.jpg"
+                },
+                {
+                    "type": "小米CC9e 荧光色高透保护壳 荧光绿",
+                    "color": "img/f_img/f_img10019.jpg"
+                },
+                {
+                    "type": "小米CC9e 荧光色高透保护壳 荧光橙",
+                    "color": "img/f_img/f_img10020.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "39",
+            "Yprice": "",
+            "code": "f_z11",
+            "text": "",
+            "pic": "",
+            "num":"11",
+            "goodsColor": [
+                {
+                    "type": "Redmi K20 怪力魔王保护壳 红色",
+                    "color": "img/f_img/f_img10021.jpg"
+                },
+                {
+                    "type": "Redmi K20 怪力魔王保护壳 黄色",
+                    "color": "img/f_img/f_img10022.jpg"
+                },
+                {
+                    "type": "Redmi K20 怪力魔王保护壳 紫色",
+                    "color": "img/f_img/f_img10023.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "39",
+            "Yprice": "",
+            "code": "f_z12",
+            "text": "",
+            "pic": "",
+            "num":"12",
+            "goodsColor": [
+                {
+                    "type": "Redmi K20 硅胶保护套 黑色",
+                    "color": "img/f_img/f_img10024.png"
+                },
+                {
+                    "type": "Redmi K20 硅胶保护套 红色",
+                    "color": "img/f_img/f_img10025.png"
+                },
+                {
+                    "type": "Redmi K20 硅胶保护套 蓝色",
+                    "color": "img/f_img/f_img10026.png"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "19.89",
+            "Yprice": "",
+            "code": "f_z13",
+            "text": "",
+            "pic": "",
+            "num":"13",
+            "goodsColor": [
+                {
+                    "type": "Redmi 7A 高透软胶保护套 透黑",
+                    "color": "img/f_img/f_img10027.jpg"
+                },
+                {
+                    "type": "Redmi 7A 高透软胶保护套 透明",
+                    "color": "img/f_img/f_img10028.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "9",
+            "Yprice": "49元",
+            "code": "f_z14",
+            "text": "",
+            "pic": "",
+            "num":"14",
+            "goodsColor": [
+                {
+                    "type": "小米9 ARE U OK保护壳 红色",
+                    "color": "img/f_img/f_img10029.jpg"
+                },
+                {
+                    "type": "小米9 ARE U OK保护壳 紫色",
+                    "color": "img/f_img/f_img10030.jpg"
+                },
+                {
+                    "type": "小米9 ARE U OK保护壳 蓝紫色",
+                    "color": "img/f_img/f_img10031.jpg"
+                },
+                {
+                    "type": "小米9 ARE U OK保护壳 薄荷绿",
+                    "color": "img/f_img/f_img10032.jpg"
+                },
+                {
+                    "type": "小米9 ARE U OK保护壳 橘色",
+                    "color": "img/f_img/f_img10033.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "109",
+            "Yprice": "49元",
+            "code": "f_z15",
+            "text": "",
+            "pic": "",
+            "num":"15",
+            "goodsColor": [
+                {
+                    "type": "小米9 RUOK保护壳 紫色",
+                    "color": "img/f_img/f_img10034.jpg"
+                },
+                {
+                    "type": "小米9 RUOK保护壳 蓝紫色",
+                    "color": "img/f_img/f_img10035.png"
+                },
+                {
+                    "type": "小米9 RUOK保护壳 薄荷绿",
+                    "color": "img/f_img/f_img10036.jpg"
+                },
+                {
+                    "type": "小米9 RUOK保护壳 橘色",
+                    "color": "img/f_img/f_img10037.jpg"
+                },
+                {
+                    "type": "小米9 RUOK保护壳 红色",
+                    "color": "img/f_img/f_img10038.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "49.9",
+            "Yprice": "49元",
+            "code": "f_z16",
+            "text": "新品",
+            "pic": "",
+            "num":"16",
+            "goodsColor": [
+                {
+                    "type": "小米9 米粉潮流保护壳-TOM（蓝紫色）",
+                    "color": "img/f_img/f_img10039.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-MIKE（橙色）",
+                    "color": "img/f_img/f_img10040.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-JACK（蓝色）",
+                    "color": "img/f_img/f_img10041.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-TONY（黄色）",
+                    "color": "img/f_img/f_img10042.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-JAMES（紫色）",
+                    "color": "img/f_img/f_img10043.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-DAVID（红色）",
+                    "color": "img/f_img/f_img10044.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-ROY BOY（绿色）",
+                    "color": "img/f_img/f_img10045.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-PETER（粉色）",
+                    "color": "img/f_img/f_img10046.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-KEVIN（薄荷绿",
+                    "color": "img/f_img/f_img10047.jpg"
+                },
+                {
+                    "type": "1小米9 米粉潮流保护壳-EMMA（紫色）",
+                    "color": "img/f_img/f_img10048.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-ECHO（橙色）",
+                    "color": "img/f_img/f_img10049.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-SUNNY（红色）",
+                    "color": "img/f_img/f_img10050.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-LINDA（蓝色）",
+                    "color": "img/f_img/f_img10051.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-FIONA（黄色）",
+                    "color": "img/f_img/f_img10052.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-HELEN（粉色）",
+                    "color": "img/f_img/f_img10053.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-MARY（蓝紫色）",
+                    "color": "img/f_img/f_img10054.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-SANDY（薄荷绿）",
+                    "color": "img/f_img/f_img10055.jpg"
+                },
+                {
+                    "type": "小米9 米粉潮流保护壳-ROY Girl（绿色）",
+                    "color": "img/f_img/f_img10056.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "69",
+            "Yprice": "49元",
+            "code": "f_z17",
+            "text": "",
+            "pic": "",
+            "num":"17",
+            "goodsColor": [
+                {
+                    "type": "小米9 潮流拼接保护壳 蓝紫色",
+                    "color": "img/f_img/f_img10057.jpg"
+                },
+                {
+                    "type": "小米9 潮流拼接保护壳 红色",
+                    "color": "img/f_img/f_img10058.jpg"
+                },
+                {
+                    "type": "小米9 潮流拼接保护壳 黄色",
+                    "color": "img/f_img/f_img10059.jpg"
+                },
+                {
+                    "type": "小米9 潮流拼接保护壳 紫色",
+                    "color": "img/f_img/f_img10060.jpg"
+                },
+                {
+                    "type": "小米9 潮流拼接保护壳 薄荷绿色",
+                    "color": "img/f_img/f_img10061.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "19",
+            "Yprice": "",
+            "code": "f_z18",
+            "text": "",
+            "pic": "",
+            "num":"18",
+            "goodsColor": [
+                {
+                    "type": "Redmi 7 高透软胶保护套 透明",
+                    "color": "img/f_img/f_img10062.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "29",
+            "Yprice": "",
+            "code": "f_z19",
+            "text": "",
+            "pic": "",
+            "num":"19",
+            "goodsColor": [
+                {
+                    "type": "小米9 街头风保护壳 黑色",
+                    "color": "img/f_img/f_img10063.jpg"
+                },
+                {
+                    "type": "小米9 街头风保护壳 红色",
+                    "color": "img/f_img/f_img10064.jpg"
+                },
+                {
+                    "type": "小米9 街头风保护壳 紫色",
+                    "color": "img/f_img/f_img10065.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "39",
+            "Yprice": "",
+            "code": "f_z20",
+            "text": "",
+            "pic": "",
+            "num":"20",
+            "goodsColor": [
+                {
+                    "type": "小米9 SE 街头风保护壳 黑色",
+                    "color": "img/f_img/f_img10066.jpg"
+                },
+                {
+                    "type": "小米9 SE 街头风保护壳 紫色",
+                    "color": "img/f_img/f_img10067.jpg"
+                },
+                {
+                    "type": "小米9 SE 街头风保护壳 红色",
+                    "color": "img/f_img/f_img10068.jpg"
+                }
+            ]
+        }
+    
+    ],
+    "page2":[
+        {
+            "class": "手机保护壳",
+            "Nprice": "29",
+            "Yprice": "",
+            "code": "f_z21",
+            "text": "",
+            "pic": "",
+            "num":"21",
+            "goodsColor": [
+                {
+                    "type": "Redmi Note 7 洞洞保护壳（创意镂空）",
+                    "color": "img/f_img/f_img100788.jpg"
+                },
+                {
+                    "type": "Redmi Note 7 洞洞保护壳（创意镂空）",
+                    "color": "img/f_img/f_img10079.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "54",
+            "Yprice": "",
+            "code": "f_z22",
+            "text": "",
+            "pic": "",
+            "num":"22",
+            "goodsColor": [
+                {
+                    "type": "小米9 硅胶保护套 黑色",
+                    "color": "img/f_img/f_img10080.jpg"
+                },
+                {
+                    "type": "小米9 硅胶保护套 蓝色",
+                    "color": "img/f_img/f_img10081.jpg"
+                },
+                {
+                    "type": "小米9 硅胶保护套 红色",
+                    "color": "img/f_img/f_img10082.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "12.9 ",
+            "Yprice": "49元",
+            "code": "f_z23",
+            "text": "",
+            "pic": "",
+            "num":"23",
+            "goodsColor": [
+                {
+                    "type": "小米MIX 3 极简保护壳 黑色",
+                    "color": "img/f_img/f_img10083.jpg"
+                },
+                {
+                    "type": "小米MIX 3 极简保护壳 蓝色",
+                    "color": "img/f_img/f_img10084.jpg"
+                },
+                {
+                    "type": "小米MIX 3 极简保护壳 绿色",
+                    "color": "img/f_img/f_img10085.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "19.82",
+            "Yprice": "",
+            "code": "f_z24",
+            "text": "",
+            "pic": "",
+            "num":"24",
+            "goodsColor": [
+                {
+                    "type": "小米 8 屏幕指纹版&小米 8 透明探索",
+                    "color": "img/f_img/f_img10086.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "19 ",
+            "Yprice": "39元",
+            "code": "f_z25",
+            "text": "",
+            "pic": "",
+            "num":"25",
+            "goodsColor": [
+                {
+                    "type": "小米Max 3 极简防摔保护套 黑色",
+                    "color": "img/f_img/f_img10087.jpg"
+                },
+                {
+                    "type": "小米Max 3 极简防摔保护套 蓝色",
+                    "color": "img/f_img/f_img10088.jpg"
+                },
+                {
+                    "type": "小米Max 3 极简防摔保护套 红色",
+                    "color": "img/f_img/f_img10089.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "30 ",
+            "Yprice": "59元",
+            "code": "f_z26",
+            "text": "",
+            "pic": "",
+            "num":"26",
+            "goodsColor": [
+                {
+                    "type": "小米Max 3 智能翻盖支架保护套 星空黑",
+                    "color": "img/f_img/f_img10090.jpg"
+                },
+                {
+                    "type": "小米Max 3 智能翻盖支架保护套 浅月灰",
+                    "color": "img/f_img/f_img10091.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "74.9 ",
+            "Yprice": "99元",
+            "code": "f_z27",
+            "text": "",
+            "pic": "",
+            "num":"27",
+            "goodsColor": [
+                {
+                    "type": "MIX 2S 真皮保护套 黑色",
+                    "color": "img/f_img/f_img10092.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "59 ",
+            "Yprice": "",
+            "code": "f_z28",
+            "text": "",
+            "pic": "",
+            "num":"28",
+            "goodsColor": [
+                {
+                    "type": "MIX 2S 液态硅胶保护壳 红色",
+                    "color": "img/f_img/f_img10093.png"
+                },{
+                    "type": "MIX 2S 液态硅胶保护壳 黑色",
+                    "color": "img/f_img/f_img10094.png"
+                },{
+                    "type": "MIX 2S 液态硅胶保护壳 蓝色",
+                    "color": "img/f_img/f_img10095.png"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "74.9 ",
+            "Yprice": "99元",
+            "code": "f_z29",
+            "text": "",
+            "pic": "",
+            "num":"29",
+            "goodsColor": [
+                {
+                    "type": "小米MIX 3 獬豸神兽保护壳 蓝色",
+                    "color": "img/f_img/f_img10096.jpg"
+                }
+            ]
+        },
+        {
+            "class": "配件",
+            "Nprice": "228 ",
+            "Yprice": "",
+            "code": "f_z30",
+            "text": "",
+            "pic": "",
+            "num":"30",
+            "goodsColor": [
+                {
+                    "type": "黑鲨双翼手柄单滑轨保护壳套装-小米",
+                    "color": "img/f_img/f_img10097.jpg"
+                }
+            ]
+        },
+        {
+            "class": "配件",
+            "Nprice": "99 ",
+            "Yprice": "",
+            "code": "f_z31",
+            "text": "",
+            "pic": "",
+            "num":"31",
+            "goodsColor": [
+                {
+                    "type": "黑鲨2 双滑轨保护壳 崩坏3定制版 黑色",
+                    "color": "img/f_img/f_img10098.jpg"
+                }
+            ]
+        },
+        {
+            "class": "配件",
+            "Nprice": "69 ",
+            "Yprice": "",
+            "code": "f_z32",
+            "text": "",
+            "pic": "",
+            "num":"32",
+            "goodsColor": [
+                {
+                    "type": "黑鲨游戏手机2 双滑轨保护壳 黑色",
+                    "color": "img/f_img/f_img10099.jpg"
+                }
+            ]
+        },
+        {
+            "class": "配件",
+            "Nprice": "29 ",
+            "Yprice": "",
+            "code": "f_z33",
+            "text": "",
+            "pic": "",
+            "num":"33",
+            "goodsColor": [
+                {
+                    "type": "黑鲨游戏手机2 Pro 极简边框保护壳 灰",
+                    "color": "img/f_img/f_img10100.jpg"
+                },{
+                    "type": "黑鲨游戏手机2 Pro 极简边框保护壳 ",
+                    "color": "img/f_img/f_img10101.jpg"
+                }
+            ]
+        },
+        {
+            "class": " ",
+            "Nprice": "29.89 ",
+            "Yprice": "",
+            "code": "f_z34",
+            "text": "",
+            "pic": "",
+            "num":"34",
+            "goodsColor": [
+                {
+                    "type": "黑鲨2软胶保护壳崩坏3定制版 黑色",
+                    "color": "img/f_img/f_img10102.jpg"
+                }
+            ]
+        },
+        {
+            "class": "配件",
+            "Nprice": "49 ",
+            "Yprice": "",
+            "code": "f_z35",
+            "text": "",
+            "pic": "",
+            "num":"35",
+            "goodsColor": [
+                {
+                    "type": "黑鲨游戏手机2 Pro 双滑轨保护壳 灰色",
+                    "color": "img/f_img/f_img10103.jpg"
+                },{
+                    "type": "黑鲨游戏手机2 Pro 双滑轨保护壳 黑色",
+                    "color": "img/f_img/f_img10104.jpg"
+                }
+            ]
+        },
+        {
+            "class": "平板配件",
+            "Nprice": "169 ",
+            "Yprice": "",
+            "code": "f_z36",
+            "text": "",
+            "pic": "",
+            "num":"36",
+            "goodsColor": [
+                {
+                    "type": "小米平板4 智能翻盖支架保护套 红色",
+                    "color": "img/f_img/f_img10105.jpg"
+                }
+            ]
+        },
+        {
+            "class": "平板配件",
+            "Nprice": "109 ",
+            "Yprice": "",
+            "code": "f_z37",
+            "text": "",
+            "pic": "",
+            "num":"37",
+            "goodsColor": [
+                {
+                    "type": "小米平板4 Plus 智能翻盖支架保护套",
+                    "color": "img/f_img/f_img10106.jpg"
+                },{
+                    "type": "小米平板4 Plus 智能翻盖支架保护套 ",
+                    "color": "img/f_img/f_img10107.jpg"
+                }
+            ]
+        },
+        {
+            "class": "手机保护壳",
+            "Nprice": "19",
+            "Yprice": "",
+            "code": "f_z38", 
+            "text": "新品",
+            "pic": "",
+            "num":"1",
+            "goodsColor": [
+                {
+                    "type": "Redmi 8A  高透软胶保护套 半透黑",
+                    "color": "img/f_img/f_img10004.jpg"
+                },
+                {
+                    "type": "Redmi 8A  高透软胶保护套 透明",
+                    "color": "img/f_img/f_img10005.jpg"
+                }
+            ]
+        }
+        
+    
+    ]
+}
