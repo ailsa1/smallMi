@@ -1,5 +1,7 @@
 $(function () {
-
+    $('.b_header').load('./e_head.html')
+    $('.b_nav').load('./e_nav.html')
+    $('.b_footer').load('./e_foot.html')
     $.ajax({
         type: 'get',
         url: 'data/f_phoneShell.json',
@@ -768,7 +770,7 @@ $(function () {
  
         localStorage.setItem("goods",code)
         // 跳转页面
-        // $(this).attr('href','test.html') 
+        $(this).attr('href','c_xiaomi.html') 
   })
 
 
