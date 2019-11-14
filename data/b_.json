@@ -1,24 +1,24 @@
 [
 
-        {"type":"小米手环4","title":"大屏彩显，20天超长续航","imgurl":"img/f_parts04.png","price":"169","Yprice":"","code":"f_a1"},
+        {"type":"小米手环4","title":"大屏彩显，20天超长续航","imgurl":"img/f_parts04.png","price":"169","Yprice":"","code":"f_z1"},
 
-        {"type":"小米「小爱老师」","title":"口袋里的英语外教 ","imgurl":"img/f_parts05.jpg","price":"449","Yprice":"499元","code":"f_a2"},
+        {"type":"小米「小爱老师」","title":"口袋里的英语外教 ","imgurl":"img/f_parts05.jpg","price":"449","Yprice":"499元","code":"f_z2"},
 
-        {"type":"米家互联网烟灶套装（液化石油气）","title":"点火排烟，风随火动 ","imgurl":"img/f_parts06.jpg","price":"1999","Yprice":"2298元","code":"f_a3"},
+        {"type":"米家互联网烟灶套装（液化石油气）","title":"点火排烟，风随火动 ","imgurl":"img/f_parts06.jpg","price":"1999","Yprice":"2298元","code":"f_z3"},
 
-        {"type":"小爱音箱万能遥控版","title":"传统家电秒变智能 ","imgurl":"img/f_parts07.jpg","price":"199","Yprice":"","code":"f_a4"},
+        {"type":"小爱音箱万能遥控版","title":"传统家电秒变智能 ","imgurl":"img/f_parts07.jpg","price":"199","Yprice":"","code":"f_z4"},
 
-        {"type":"小米小爱音箱 Play","title":"小米小爱音箱 Play","imgurl":"img/f_parts08.jpg","price":"169","Yprice":"","code":"f_a5"},
+        {"type":"小米小爱音箱 Play","title":"小米小爱音箱 Play","imgurl":"img/f_parts08.jpg","price":"169","Yprice":"","code":"f_z5"},
 
-        {"type":"米家智能门锁 推拉式 ","title":"一步推拉，高端智能门锁 ","imgurl":"img/f_parts09.jpg","price":"1699","Yprice":"","code":"f_a6"},
+        {"type":"米家智能门锁 推拉式 ","title":"一步推拉，高端智能门锁 ","imgurl":"img/f_parts09.jpg","price":"1699","Yprice":"","code":"f_z6"},
 
-        {"type":"米家电饭煲4L","title":"890W 立体加热  ","imgurl":"img/f_parts10.jpg","price":"299","Yprice":"","code":"f_a7"},
+        {"type":"米家电饭煲4L","title":"890W 立体加热  ","imgurl":"img/f_parts10.jpg","price":"299","Yprice":"","code":"f_z7"},
 
-        {"type":"米家电烤箱","title":"全能烘焙体验 ","imgurl":"img/f_parts11.jpg","price":"299","Yprice":"","code":"f_a8"},
+        {"type":"米家电烤箱","title":"全能烘焙体验 ","imgurl":"img/f_parts11.jpg","price":"299","Yprice":"","code":"f_z8"},
 
-        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts12.jpg","price":"999","Yprice":"","code":"f_a9"},
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts12.jpg","price":"999","Yprice":"","code":"f_z9"},
 
-        {"type":"小白智能摄像机 电池版","title":"无需布线 安装更省心 ","imgurl":"img/f_parts13.jpg","price":"349","Yprice":"399元","code":"f_a10"},
+        {"type":"小白智能摄像机 电池版","title":"无需布线 安装更省心 ","imgurl":"img/f_parts13.jpg","price":"349","Yprice":"399元","code":"f_z10"},
         {"type":"空调（1.5匹/三级能效）","title":"变频，快速制冷热 ","imgurl":"img/f_parts15.jpg","price":"1899","Yprice":"2299元","code":"f_b1"},
 
         {"type":"米家洗烘一体机","title":"智能烘干，高效净衣 ","imgurl":"img/f_parts16.jpg","price":"1999","Yprice":"2298元","code":"f_b2"},
@@ -132,6 +132,17 @@
         { "type": "小米CC9 Pro", "title": "小米CC9 Pro", "imgurl": "../img/sjdhk/sj22.png", "price": "2799", "Yprice": "2799", "code": "e_sj22" },
         { "type": "小米CC9 Pro", "title": "小米CC9 Pro", "imgurl": "../img/sjdhk/sj23.png", "price": "2799", "Yprice": "2799", "code": "e_sj23" },
         { "type": "小米CC9 Pro", "title": "小米CC9 Pro", "imgurl": "../img/sjdhk/sj24.png", "price": "2799", "Yprice": "2799", "code": "e_sj24" },
+
+        {"type":"小米CC9 Pro 6GB+128GB","title":"5G双卡全网通，骁龙855Plus","imgurl":"img/b_gwcimg/a1.webp","price":"2799元","Yprice":"","code":"b_a1"},
+    {"type":"Redmi K20 Pro 尊享版 8GB+5","title":"5000mAh超长续航","imgurl":"img/b_gwcimg/a2.webp","price":"2999元","Yprice":"799元","code":"b_a2"},
+    {"type":"小米9 Pro 5G 全网通版 8GB+25","title":"6400万全场景四摄","imgurl":"img/b_gwcimg/a3.webp","price":"3799元","Yprice":"1399元","code":"b_a3"},
+    {"type":"小米CC9 6GB +64GB","title":"千元4800万四摄","imgurl":"img/b_gwcimg/a4.webp","price":"1499元","Yprice":"","code":"b_a4"},
+    {"type":"小米CC 9e 全网通版 6GB+128GB","title":"骁龙855 Plus， 弹出全面屏","imgurl":"img/b_gwcimg/a5.webp","price":"1399元","Yprice":"","code":"b_a5"},
+    {"type":"Redmi Note 8 Pro 6GB+128GB","title":"4800万拍照千元机","imgurl":"img/b_gwcimg/a6.webp","price":"1599元","Yprice":"","code":"b_a6"},
+    {"type":"黑鲨游戏手机2 Pro 12GB+512","title":"4000mAh超长续航","imgurl":"img/b_gwcimg/a7.webp","price":"3999元","Yprice":"999元","code":"b_a7"},
+    {"type":"Redmi 8A 4GB+64GB","title":"小巧大电量 持久流畅","imgurl":"img/b_gwcimg/a8.webp","price":"799元","Yprice":"599元","code":"b_a8"},
+    {"type":"Redmi 8 3GB+32GB","title":"4000mAh超长续航","imgurl":"img/b_gwcimg/a7.webp","price":"799元","Yprice":"999元","code":"b_a9"},
+    {"type":"Redmi Note 8 6GB+128GB","title":"小巧大电量 持久流畅","imgurl":"img/b_gwcimg/a8.webp","price":"1399元","Yprice":"599元","code":"b_a10"},
 
         {"type":"米家驱蚊器基础版 白色","title":"长效驱蚊，静享整个夏天","imgurl":"img/b_gwcimg/a1.webp","price":"24.50元","Yprice":"49元","code":"b_b1"},
     {"type":"小米无线充电器（通用快","title":"铝合金外观，金属质感好","imgurl":"img/b_gwcimg/a2.webp","price":"34.50元","Yprice":"69元","code":"b_b2"},

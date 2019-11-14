@@ -69,10 +69,11 @@ function han() {
         // console.log(arrcd)
         var str = ''
         ajax({
-            url: './data/b_gwc.json',
+            url: './data/b_.json',
             type: 'get',
             data: '',
             success: function (data) {
+                console.log(data)
                 var json = JSON.parse(data)
                 for (var i = 0, len = json.length; i < len; i++) {
                     for (var j = 0; j < arrcd.length; j++) {
