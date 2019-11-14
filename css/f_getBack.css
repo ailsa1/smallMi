@@ -1,7 +1,102 @@
+#cx_header {
+    background: whitesmoke;
+  }
+  
+  #cx_header .cx_header {
+    background: white;
+  }
+  
+  #cx_header .cx_header h6 {
+    background: whitesmoke;
+    line-height: 40px;
+    font-size: 12px;
+  }
+  #cx_header .cx_header h6 a{
+      color: #757575;
+      margin-right: 6px;
+  }
+  #cx_header .cx_header h6 a:hover{
+      color: #424242;
+  }
+  #cx_header .cx_header h6 span{
+      margin-right: 6px;
+      color: #616161;
+  }
+  
+  #cx_header .cx_header .cx_box {
+    overflow: hidden;
+    height: 180px;
+    padding: 50px 200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  #cx_header .cx_header .cx_box span {
+    font-size: 12px;
+    float: left;
+    text-align: center;
+  }
+  
+  #cx_header .cx_header .cx_box span p {
+    margin-top: 10px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 48px;
+    color: #b0b0b0;
+    border: 1px solid #b0b0b0;
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+#cx_header .cx_header .cx_box span:nth-child(1){
+    color: #8bc34a;
+}
+#cx_header .cx_header .cx_box span:nth-child(1) p{
+    color: #8bc34a;
+    border-color: #8bc34a;
+}
+#cx_header .cx_header .cx_box i:nth-child(2){
+    color: #8bc34a;
+} 
+#cx_header .cx_header .cx_box span:nth-child(3) p{
+    color: #8bc34a;
+    border-color: #8bc34a;
+}
+#cx_header .cx_header .cx_box span:nth-child(3) {
+    color: #8bc34a;
+}
+#cx_header .cx_header .cx_box i:nth-child(4){
+    color: #8bc34a;
+}
+#cx_header .cx_header .cx_box span:nth-child(5) p{
+    color: #fff;
+    background-color: #ff6700;
+    border: 0;
+} 
+#cx_header .cx_header .cx_box span:nth-child(5){
+    color: #ff6700;
+}
+#cx_header .cx_header .cx_box i {
+    font-size: 25px;
+    color: #cccccc;
+    float: left;
+    text-align: center;
+    width: 160px;
+    line-height: 48px;
+  }
+#cx_header .cx_header .cx_box .span4{
+    color: #b0b0b0;
+}
+
+
 .wrap{
     width: 100%;
     height: 1000px;
     background-color: #f5f5f5;
+    padding-top: 20px;
 }
 .wrap_inner{
     overflow: hidden;
@@ -38,7 +133,7 @@
 }
 .wrap .wrap_inner .wrap_right{
     width: 854px;
-    float: left;
+    float: left; 
     margin-left: 14px;
 }
 .wrap .wrap_right .right_top{

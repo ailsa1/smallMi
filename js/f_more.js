@@ -1,5 +1,9 @@
 
 $(function () {
+  $('.b_header').load('./e_head.html')
+  $('.b_nav').load('./e_nav.html')
+  $('.b_footer').load('./e_foot.html')
+
   var oLis = document.querySelectorAll('.wrapBox li');
   var oImgs = document.querySelectorAll('.swiperBox img');
 
@@ -138,7 +142,7 @@ $(function () {
  
         localStorage.setItem("goods",code)
         // 跳转页面
-        $(this).attr('href','test.html') 
+        $(this).attr('href','c_xiaomi.html') 
   })
 
 })
