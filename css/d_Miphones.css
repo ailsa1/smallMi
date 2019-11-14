@@ -1,0 +1,124 @@
+#header{
+    overflow: hidden;
+    width: 1349px;
+    margin: 0 auto;
+}  
+.container{
+    width:1228px;
+    margin:0 auto;
+}
+/* banner图 */
+.banner{
+    width: 2560px;
+    /* height: 941px; */
+    height: 940px;
+    margin-left:-100px;
+    /* overflow-x:visible ; */
+}
+.banner img{
+	width: 100%; 
+    margin-left:-650px;
+}
+.center{
+    width: 2560px;
+    /* height: 124px; */
+}
+.center img{
+    overflow: hidden;
+    width: 100%;
+    margin-left:-650px ;
+}
+
+/* 手机列表 */
+
+.goods{
+    padding-top: 10px;
+    /* width: 1349px; */
+    /* height: 2130px; */
+    background-color:#250168;
+
+}
+.iphone{
+    padding-left: 10px;
+    margin-left: -49px;
+    /* width: 1349px; */
+    height: 2130px;
+}
+.iphone ul li{
+    width: 296px;
+    float: left;
+    margin-left: 20px;
+
+}
+.iphone ul li .mitu{
+    width: 296px;
+    overflow: hidden;
+    display: block;
+    /* margin-right: 5px; */
+    margin-top: 10px;
+    
+}
+
+.iphone img{
+    /* width: 100%; */
+    width: 296px;
+}
+.iphone img:hover{
+    transform:scale(1.05,1.05);
+}
+.describe{
+    width: 296px;
+    height: 149px;
+    background-color: #ffffff;
+}
+
+.describe h3{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.describe p{
+    padding-top: 8px;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
+.describe sup{
+    font-size: 20px;
+    color: #EA625B;
+    padding-left: 70px;
+}
+.describe span{
+    color: gray;
+    padding-left: 5px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    text-decoration: line-through;
+}
+.describe .btn{
+    width: 120px;
+    height: 40px;
+    background-color: indianred;
+    margin: 0px 0px 0px 86px;
+}
+.describe .btn p{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* 回到顶部 */
+#return_top{
+    width:40px; 
+    height:40px;
+    position:fixed; 
+    right:55px; 
+    bottom:10px; 
+    display:none; 
+    background-color: #EA265B;
+    opacity: .6;
+    text-align: center;
+    font-size: 26px;
+    color: #ffffff;
+}

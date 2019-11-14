@@ -1,0 +1,84 @@
+[
+    {"type":"Redmi 红米电视 70英寸","title":"70英寸震撼巨屏，4K画质，细腻如真","imgurl":"img/d_10004.jpg","img":"img/d_10026.png","price":"￥3199元","Yprice":"","code":"d_d1"},
+    {"type":"全面屏电视Pro 65英寸","title":"全金属机身，2G+32G大存储，支持8K视频解码","imgurl":"img/d_10006.jpg","img":"img/d_999.png","price":"￥3399元","Yprice":"","code":"d_d2"},
+    {"type":"全面屏电视Pro 55英寸","title":"全金属机身，2G+32G大存储，支持8K视频解码","imgurl":"img/d_10007.jpg","img":"img/d_999.png","price":"￥2399","Yprice":"","code":"d_d3"},
+    {"type":"全面屏电视Pro 43英寸","title":"全金属机身，2G+32G大存储，支持8K视频解码","imgurl":"img/d_10008.jpg","img":"img/d_999.png","price":"￥1499","Yprice":"","code":"d_d4"},
+    {"type":"小米电视4A 70英寸","title":"大屏更享受","imgurl":"img/d_10009.jpg","img":"img/d_998.png","price":"￥3999","Yprice":"","code":"d_d5"},
+
+    {"type":"全面屏电视43英寸 E43X","title":"时尚全面屏设计，内置小爱同学","imgurl":"img/d_10010.jpg","img":"img/d_997.png","price":"￥1299元","Yprice":"￥1699","code":"d_d6"},
+    {"type":"小米电视4A 32英寸","title":"人工智能系统，高清液晶屏","imgurl":"img/d_10011.jpg","img":"img/d_996.png","price":"￥799","Yprice":"","code":"d_d7"},
+    {"type":"全面屏电视E55A","title":"全面屏设计，人工智能语音","imgurl":"img/d_2012.jpg","img":"img/d_995.png","price":"￥1799","Yprice":"￥2099","code":"d_d8"},
+    {"type":"小米电视4C 50英寸","title":"4K HDR 钢琴烤漆","imgurl":"img/d_10013.jpg","img":"img/d_994.png","price":"￥1699","Yprice":"","code":"d_d9"},
+    {"type":"电视4A 43” 青春版","title":"人工智能语音,FHD全高清屏","imgurl":"img/d_10014.jpg","img":"img/d_993.png","price":"￥1499","Yprice":"","code":"d_d10"},
+
+    {"type":"小米电视4A 65英寸","title":"4K HDR,人工智能语音系统","imgurl":"img/d_10014.jpg","img":"img/d_01.png","price":"￥2999","Yprice":"","code":"d_d11"},
+    {"type":"小米电视4A 55英寸","title":"4K HDR,人工智能语音系统","imgurl":"img/d_10016.jpg","img":"img/d_02.png","price":"￥1699","Yprice":"￥1999","code":"d_d12"},
+    {"type":"全面屏电视E32A","title":"全面屏设计，人工智能系统","imgurl":"img/d_2014.jpg","img":"img/d_03.png","price":"￥799","Yprice":"￥1099","code":"d_d13"},
+    {"type":"小米电视4A 50英寸","title":"4K HDR,人工智能语音系统","imgurl":"img/d_10018.jpg","img":"img/d_04.png","price":"￥1499","Yprice":"￥1699","code":"d_d14"},
+    {"type":"全面屏电视E65A","title":"全面屏设计，人工智能语音","imgurl":"img/d_10019.jpg","img":"img/d_05.png","price":"￥3999","Yprice":"","code":"d_d15"},
+
+    {"type":"小米电视4C 40英寸","title":"FHD全高清屏，钢琴烤漆","imgurl":"img/d_2019.jpg","img":"img/d_06.png","price":"￥1099","Yprice":"￥1299","code":"d_d16"},
+    {"type":"小米电视4A 50英寸影院版","title":"本套装包含小米电视4A 50英寸*1、小米电视影响*1","imgurl":"img/d_10024.jpg","price":"￥1798","Yprice":"￥2098","code":"d_d17"},
+    {"type":"电视4A 43” 影院版","title":"43”电视4A青春版+电视音响","imgurl":"img/d_10014.jpg","price":"￥1498","Yprice":"￥1898","code":"d_d18"},
+    {"type":"电视4A 55” 影院版","title":"55”电视4A+小米电视音响","imgurl":"img/d_10016.jpg","price":"￥1998","Yprice":"￥2398","code":"d_d19"},
+    {"type":"电视4C 50” 影院版","title":"50”电视4C+小米电视音响","imgurl":"img/d_10013.jpg","price":"￥1798","Yprice":"￥2098","code":"d_d20"},
+
+    {"type":"电视4 55” 影院版","title":"55”电视4+小米电视音响","imgurl":"img/d_2005.jpg","price":"￥3498","Yprice":"￥4098","code":"d_d21"},
+    {"type":"电视4C 55” 影院版","title":"55”电视4C+小米电视音响","imgurl":"img/d_2006.jpg","price":"￥1998","Yprice":"￥2398","code":"d_d22"},
+    {"type":"电视4 65” 影院版","title":"65”电视4旗舰版+小米电视音响","imgurl":"img/d_2007.jpg","price":"￥5298","Yprice":"￥5398","code":"d_d23"},
+    {"type":"小米电视4A 32英寸","title":"人工智能系统，高清液晶屏，64位处理器","imgurl":"img/d_10011.jpg","price":"￥799","Yprice":"","code":"d_d24"},
+    {"type":"小米电视4A 55英寸","title":"4K HDR,人工智能语音系统","imgurl":"img/d_10016.jpg","img":"img/d_02.png","price":"￥1699","Yprice":"￥1999","code":"d_d25"},
+
+    {"type":"小米电视4X 55英寸","title":"4K HDR,人工智能语音","imgurl":"img/d_2008.jpg","img":"img/d_07.png","price":"￥1699","Yprice":"￥1999","code":"d_d26"},
+    {"type":"电视4A 43” 青春版","title":"人工智能语音,FHD全高清屏","imgurl":"img/d_10014.jpg","img":"img/d_993.png","price":"￥1499","Yprice":"","code":"d_d27"},
+    {"type":"小米电视4A 65英寸","title":"4K HDR,人工智能语音系统","imgurl":"img/d_10015.jpg","img":"img/d_01.png","price":"￥2999","Yprice":"","code":"d_d28"},
+    {"type":"小米电视4A 58英寸","title":"4K HDR,人工智能语音系统","imgurl":"img/d_2009.jpg","img":"img/d_08.png","price":"￥2999","Yprice":"","code":"d_d29"},
+    {"type":"小米电视4A 50英寸","title":"4K HDR,人工智能语音系统","imgurl":"img/d_10018.jpg","img":"img/d_04.png","price":"￥1499","Yprice":"￥1699","code":"d_d30"},
+
+    {"type":"小米电视4X 43英寸","title":"FHD全高清屏，人工智能语音","imgurl":"img/d_2019.jpg","img":"img/d_06.png","price":"￥1199","Yprice":"￥1499","code":"d_d31"},
+    {"type":"小米电视4C 50英寸","title":"4K HDR,钢琴烤漆","imgurl":"img/d_10013.jpg","img":"img/d_994.png","price":"￥1699","Yprice":"","code":"d_d32"},
+    {"type":"小米壁画电视 65英寸","title":"壁画外观，全面屏，远场语音","imgurl":"img/d_2011.jpg","price":"￥6999","Yprice":"","code":"d_d33"},
+    {"type":"全面屏电视E55A","title":"全面屏设计，人工智能语音","imgurl":"img/d_2029.jpg","img":"img/d_995.png","price":"￥1799","Yprice":"￥2099","code":"d_d34"},
+    {"type":"全面屏电视E65A","title":"全面屏设计，人工智能语音","imgurl":"img/d_2029.jpg","img":"img/d_05.png","price":"￥3999","Yprice":"","code":"d_d35"},
+
+    {"type":"全面屏电视E55C","title":"全面屏设计，人工智能语音","imgurl":"img/d_2029.jpg","img":"img/d_09.png","price":"￥2099","Yprice":"","code":"d_d36"},
+    {"type":"全面屏电视E32A","title":"全面屏设计，人工智能系统","imgurl":"img/d_2019.jpg","img":"img/d_03.png","price":"￥799","Yprice":"￥1099","code":"d_d37"},
+    {"type":"全面屏电视E43A","title":"全面屏设计，人工智能语音","imgurl":"img/d_2015.jpg","img":"img/d_10.png","price":"￥1299","Yprice":"￥1999","code":"d_d38"},
+    {"type":"小米电视4C 43英寸","title":"FHD全高清屏，钢琴烤漆","imgurl":"img/d_2016.jpg","img":"img/d_11.png","price":"￥1399","Yprice":"","code":"d_d39"},
+    {"type":"小米电视4C 50英寸","title":"4K HDR，钢琴烤漆","imgurl":"img/d_10013.jpg","img":"img/d_994.png","price":"￥1699","Yprice":"","code":"d_d40"},
+
+    {"type":"小米电视4C 40英寸","title":"FHD全高清屏，钢琴烤漆","imgurl":"img/d_2017.jpg","img":"img/d_994.png","price":"￥1099","Yprice":"￥1299","code":"d_d41"},
+    {"type":"小米电视4C 32英寸","title":"高清液晶屏，人工智能系统","imgurl":"img/d_2018.jpg","img":"img/d_12.png","price":"￥699","Yprice":"￥799","code":"d_d42"},
+    {"type":"小米电视4C 55英寸","title":"4K HDR，人工智能系统","imgurl":"img/d_2006.jpg","img":"img/d_13.png","price":"￥1999","Yprice":"","code":"d_d43"},
+    {"type":"小米电视4C 65英寸","title":"4K HDR超高清画质，人工智能语音","imgurl":"img/d_2006.jpg","img":"img/d_14.png","price":"￥2999","Yprice":"","code":"d_d44"},
+    {"type":"小米电视4S 75英寸","title":"4K HDR，人工智能语音","imgurl":"img/d_2020.jpg","img":"img/d_15.png","price":"￥6999","Yprice":"","code":"d_d45"},
+
+    {"type":"小米电视4S 50英寸","title":"金属机身，4K HDR","imgurl":"img/d_2021.jpg","img":"img/d_15.png","price":"￥2399","Yprice":"","code":"d_d46"},
+    {"type":"小米电视4S 55英寸","title":"4K HDR，人工智能语音","imgurl":"img/d_2022.jpg","img":"img/d_16.png","price":"￥2399","Yprice":"","code":"d_d47"},
+    {"type":"小米电视4S 55英寸 曲面","title":"4000R 黄金曲率，金属机身","imgurl":"img/d_2024.jpg","img":"img/d_17.png","price":"￥2999","Yprice":"","code":"d_d48"},
+    {"type":"小米电视4S 65英寸","title":"4K HDR，人工智能语音","imgurl":"img/d_2025.jpg","img":"img/d_18.png","price":"￥3899","Yprice":"","code":"d_d49"},
+    {"type":"小米电视4S 65英寸PRO","title":"4K HDR，2GB+16GB大储存","imgurl":"img/d_2026.jpg","img":"img/d_18.png","price":"￥4099","Yprice":"","code":"d_d50"},
+
+    {"type":"小米电视4S 32英寸","title":"人工智能语音，高清液晶屏","imgurl":"img/d_2027.jpg","img":"img/d_19.png","price":"￥999","Yprice":"","code":"d_d51"},
+    {"type":"小米电视4S 43英寸","title":"金属机身，4K HDR","imgurl":"img/d_2028.jpg","price":"￥1899","Yprice":"","code":"d_d52"},
+    {"type":"小米电视4 55英寸","title":"4.9mm 极超薄机身，人工智能语音","imgurl":"img/d_2005.jpg","price":"￥3699","Yprice":"","code":"d_d53"},
+    {"type":"电视4 65” 旗舰版","title":"全面屏人工智能语音电视","imgurl":"img/d_2007.jpg","price":"￥4999","Yprice":"","code":"d_d54"},
+    {"type":"电视4 75英寸","title":"超薄金属机身，4K HDR","imgurl":"img/d_2029.jpg","price":"￥8999","Yprice":"","code":"d_d55"},
+   
+   
+   
+    {"type":"激光投影电视 4K","title":"超短焦，在家看巨幕","imgurl":"img/d_2031.jpg","price":"￥12999","Yprice":"￥14999","code":"d_d56"},
+    {"type":"激光投影电视 150英寸","title":"超短焦，在家看巨幕","imgurl":"img/d_2031.jpg","price":"￥9499","Yprice":"￥9999","code":"d_d57"},
+
+    {"type":"小米盒子4 SE套装版","title":"人工智能机顶盒+小米高清数据线","imgurl":"img/d_2033.jpg","price":"￥189","Yprice":"","code":"d_d58"},
+    {"type":"小米盒子4","title":"人工智能语音机顶盒，海量片源","imgurl":"img/d_2032.jpg","price":"￥299","Yprice":"","code":"d_d59"},
+   
+   
+   
+    {"type":"小米电视音响","title":"电视好伴侣，浸享好声音","imgurl":"img/d_10027.jpg","price":"￥399","Yprice":"","code":"d_d60"},
+    {"type":"小米红外遥控器","title":"11键极简设计，软硅胶按键","imgurl":"img/d_2034.jpg","price":"￥39","Yprice":"","code":"d_d61"},
+    {"type":"小米蓝牙语音遥控器","title":"11键极简设计，软硅胶按键","imgurl":"img/d_2035.jpg","price":"￥99","Yprice":"","code":"d_d62"}
+
+
+
+]
