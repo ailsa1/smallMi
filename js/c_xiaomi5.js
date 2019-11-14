@@ -13,7 +13,7 @@
             success: function (data) {
                 //使用$.each方法遍历返回的数据date,插入到id为#result中
                 var str = '',
-                    str1, str2, str3, str4;
+                    str1, str2, str3, str4,str5,str6;
 
 
                 $.each(data, function (i, n) {
@@ -31,9 +31,9 @@
                             '<img code="' + n['code'] + '" src="' + n['imgurl'] + '" class="c_img2 c_imgb" alt="">' +
                             '<img code="' + n['code'] + '" src="' + n['imgurl'] + '" class="c_img2 c_imgb" alt="">'
             
-                        str4 = '<p "' + n['code'] + '" class="c_p3">' + n['Nprice']+'元'+ '</p>'
+                        str4 = '<p "' + n['code'] + '" class="c_p3">' + n['price']+'元'+ '</p>'
                         str5 = '<span code="' + n['code'] + '">' + n['type'] + '</span>'
-                        str6='<i code="'+n[code]+'">'+n['Nprice']+'元'+ '</i>'
+                        str6='<i code="'+n[code]+'">'+n['price']+'元'+ '</i>'
                     }
 
                 })
