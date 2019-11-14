@@ -22,8 +22,8 @@ $(function () {
             var resultsd = '';
             // console.log(json)
             for(var i = 0; i < 16;i++){
-                results +=`<li>
-                                <div class="mitu" code="${json[i].code}"><img src="${json[i].imgurl}" alt=""></div>
+                results +=`<li code="${json[i].code}">
+                                <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                                 <div class="item-con">
                                     <a href="#"><img src="${json[i].img}"></a>
                                     <div class="con-l">
@@ -33,7 +33,7 @@ $(function () {
                                     <div class="con-r">
                                         <sup>${json[i].price}</sup>
                                         <span>${json[i].Yprice}</span>
-                                    <a href="javascript">
+                                    <a href="javascript:;">
                                         <div class="btn">
                                             <p>立即购买</p>
                                         </div>
@@ -63,7 +63,7 @@ $(function () {
             // console.log(results2)
 
              for(var i = 17; i < 23;i++){
-                results3 +=`<li>
+                results3 +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <div class="con-l">
@@ -83,7 +83,7 @@ $(function () {
             }
             // console.log(results3)
             for(var i = 23; i < 24;i++){
-                results4 +=`<li>
+                results4 +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <a href="#"><img src="${json[i].img}"></a>
@@ -104,7 +104,7 @@ $(function () {
                     // console.log(json[i].imgurl)
             }
             for(var i = 24; i < 32;i++){
-                results5 +=`<li>
+                results5 +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <a href="#"><img src="${json[i].img}"></a>
@@ -125,7 +125,7 @@ $(function () {
                     // console.log(json[i].imgurl)
             }
             for(var i = 32; i < 38;i++){
-                results6 +=`<li>
+                results6 +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <div class="con-l">
@@ -146,7 +146,7 @@ $(function () {
             }
 
             for(var i = 38; i < 44;i++){
-                results7 +=`<li>
+                results7 +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <a href="#"><img src="${json[i].img}"></a>
@@ -167,7 +167,7 @@ $(function () {
                     // console.log(json[i].imgurl)
             }
             for(var i = 44; i < 52;i++){
-                results8 +=`<li>
+                results8 +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <div class="con-l">
@@ -208,7 +208,7 @@ $(function () {
             }
 
             for(var i = 53; i < 55;i++){
-                resultsz +=`<li>
+                resultsz +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <div class="con-l">
@@ -229,7 +229,7 @@ $(function () {
             }
 
             for(var i = 55; i < 57;i++){
-                resultsy +=`<li>
+                resultsy +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <div class="con-l">
@@ -250,7 +250,7 @@ $(function () {
             }
 
             for(var i = 57; i < 59;i++){
-                resultsb +=`<li>
+                resultsb +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <div class="con-l">
@@ -289,7 +289,7 @@ $(function () {
                     console.log(resultsc)
             }
             for(var i = 60; i < 62;i++){
-                resultsd +=`<li>
+                resultsd +=`<li code="${json[i].code}">
                     <div class="mitu"><img src="${json[i].imgurl}" alt=""></div>
                     <div class="item-con">
                     <div class="con-l">
@@ -331,7 +331,7 @@ $(function () {
             //高清
             $('.left ul').eq(8).html(resultsb);
             //配件
-            console.log($('.supert').eq(3))
+            // console.log($('.supert').eq(3))
             $('.supert').eq(4).html(resultsc);
             //配件2
             $('.left ul').eq(9).html(resultsd);
@@ -339,13 +339,10 @@ $(function () {
     });
     //点击立即购买
     $('.left').on('click','.con-r a',function (){
-        console.log(666)
-        var code = $(this).parent().attr('code');
-        // console.log(this);
-        var codeArr = [];
-        codeArr.push(code);
-        var jsonStr = JSON.stringify({"code":codeArr});
-        localStorage.setItem('con-r',jsonStr);
+        var code = $(this).parent().parent().parent().attr('code');
+        console.log(code)
+        console.log($(this).parent().parent().parent());
+        localStorage.setItem('goods',code);
         location.href='c_xiaomi.html';
     })
     

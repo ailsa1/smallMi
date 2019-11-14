@@ -3,7 +3,7 @@ var op= document.querySelectorAll('.right ul li p');
 var oList = document.querySelectorAll('.one');
 var big=document.querySelectorAll('.big1 .one')
 var left_t=document.querySelector('.left_t')
-var btn=document.querySelector('.btn')
+var btn=document.querySelector('.footer .btn')
 var xu=document.querySelectorAll('.right ul li span')
 // var big1 = document.querySelectorAll('.one')
 // console.log(big)
@@ -11,7 +11,7 @@ var xu=document.querySelectorAll('.right ul li span')
 if(localStorage.getItem('c_code')){
     var code=localStorage.getItem('c_code')
     ajax({
-        url:'./data/c_shuju.json',
+        url:'./data/c_shuju3.json',
         type:'get',
         data:'',
         success:function(data){
@@ -20,11 +20,12 @@ if(localStorage.getItem('c_code')){
             for(var i=0;i<json.length;i++){
                 if(json[i].code==code){
                     str+=`<p>已选机型</p>
-                    <h3>${json[i].type}</h3>
+                    <h3 code="${json[i].code}">${json[i].type}</h3>
                     <img src="${json[i].imgurl}">`
                 }
             }
             left_t.innerHTML=str
+            btn.setAttribute('code',code)
         }
     })
 }
@@ -92,6 +93,13 @@ for(var i=0;i<big.length;i++){
     }
     }
 }
+    $('.btn').on('click',function (){
+        var code = $(this).attr('code');
+        // console.log(code)
+        // console.log($(this).parent().parent().parent());
+        localStorage.setItem('xu',code);
+        location.href='f_getBack.html';
+    })
 
 
 
