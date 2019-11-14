@@ -1,4 +1,4 @@
-if (localStorage.getItem('goods')) {
+﻿if (localStorage.getItem('goods')) {
     var code = localStorage.getItem('goods')
     console.log(code)
     $(function () {
@@ -6,7 +6,7 @@ if (localStorage.getItem('goods')) {
             //请求方式为get
             type: "GET",
             //json文件位置
-            url: "./data/f_more.json",
+            url: "./data/b_.json",
             //返回数据格式为json
             dataType: "json",
             //请求成功完成后要执行的方法
