@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cebian.css">
+</head>
+
+<body>
+    <header id="c_banner">
+        <div class="c_banner" style="left:0%;">
+
+            <img src="img/ce1.png" class="ce_img1" alt="">
+            <img src="img/ce2.png" alt="">
+        </div>
+        <ul class="ce_btn">
+            <li class="ce_btn1"></li>
+            <li class="ce_btn2"></li>
+        </ul>
+    </header>
+
+    <main id="ce_main">
+        <div class="ce_main">
+            <h2>明星产品</h2>
+
+            <div class="ce_box">
+                <img src="img/ce3.png" alt="">
+                <div>
+                    <p>Redmi K20</p>
+                    <p><span>弹出全面屏，4800万三摄 </span> <span><strong>1999</strong>元 起<del>2099元</del></span></p>
+                </div>
+            </div>
+
+            <div class="ce_box">
+                <img src="img/ce4.png" alt="">
+                <div>
+                    <p>Redmi K20</p>
+                    <p><span>弹出全面屏，4800万三摄 </span> <span><strong>1999</strong>元 起<del>2099元</del></span></p>
+                </div>
+            </div>
+
+            <div class="ce_box">
+                <img src="img/ce5.png" alt="">
+                <div>
+                    <p>Redmi K20</p>
+                    <p><span>弹出全面屏，4800万三摄 </span> <span><strong>1999</strong>元 起<del>2099元</del></span></p>
+                </div>
+            </div>
+
+            <div class="ce_box">
+                <img src="img/ce6.png" alt="">
+                <div>
+                    <p>Redmi K20</p>
+                    <p><span>弹出全面屏，4800万三摄 </span> <span><strong>1999</strong>元 起 &nbsp;<del>&nbsp; 2099元</del></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/jquery.min.js"></script>
+<script>
+    //     $("div").css("padding-left"));
+    // 用css()设置样式
+    // $("div").css("color","yellow");  
+    // 设置多个样式
+    // $("div").css({"background-color":"yellow","font-size":"200%"});
+    $(document).ready(function () {
+        $(".ce_btn1").css({
+            "background": "white"
+        })
+        $(".ce_btn2").click(function () {
+            $(".ce_btn2").css({
+                "background": "white"
+            })
+            $(".ce_btn1").css({
+                "background": "#9998ae"
+            })
+
+            $(".c_banner").animate({
+                left: '-100%'
+            });
+        });
+        $(".ce_btn1").click(function () {
+            $(".ce_btn1").css({
+                "background": "white"
+            })
+            $(".ce_btn2").css({
+                "background": "#9998ae"
+            })
+            $(".c_banner").animate({
+                left: '0%'
+            });
+        });
+
+    });
+    var c_banner = document.querySelector('.c_banner')
+
+    // var left=c_banner.getAttribute("left")
+    // console.log(c_banner.getAttribute("style"))
+    //getAttribute只能获取行内表面样式
+
+    // if(getStyle(c_banner,'left')=='0px'){
+
+
+    // }else{
+    //     console.log(getStyle(c_banner,'left'));
+
+    // }
+
+
+    function cfn() {
+        var ce_time = setInterval(function () {
+            if (getStyle(c_banner, 'left') == '0px') {
+                $(".ce_btn2").css({
+                    "background": "white"
+                })
+                $(".ce_btn1").css({
+                    "background": "#9998ae"
+                })
+                console.log(666);
+                $(".c_banner").animate({
+                    left: '-100%'
+                },{
+                    duration:'slow'
+                });
+            } else if (getStyle(c_banner, 'left') >= '-1500px') {
+                $(".ce_btn1").css({
+                    "background": "white"
+                })
+                $(".ce_btn2").css({
+                    "background": "#9998ae"
+                })
+                $(".c_banner").animate({
+                    left: '0%'
+                },{
+                    duration:'slow'
+                });
+            }
+        }, 4000)
+        c_banner.onmouseenter = function () {
+            clearInterval(ce_time)
+        }
+    }
+    cfn()
+
+    c_banner.onmouseleave = function () {
+        cfn()
+    }
+    function getStyle(ele, property) {
+        if (getComputedStyle) {
+            return getComputedStyle(ele, false)[property]
+        } else {
+            return ele.currentStyle[property]
+        }
+    }
+</script>
+
+</html>

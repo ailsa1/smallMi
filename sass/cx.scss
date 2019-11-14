@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+
+
+#cx_header {
+
+    background: rgb(245, 245, 245);
+
+
+    .cx_header {
+        background: white;
+
+        h6 {
+            background: rgb(245, 245, 245);
+            padding: 10px 0;
+        }
+
+        .cx_box {
+            overflow: hidden;
+            height: 180px;
+            padding: 70px 200px;
+            box-sizing: border-box;
+
+            span {
+                font-size: 12px;
+                float: left;
+                color: #b0b0b0;
+
+                p {
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+
+                    font-size: 18px;
+                    text-align: center;
+                    line-height: 40px;
+                    // color: white;
+                    color: #b0b0b0;
+                    border: 1px solid #b0b0b0;
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    // background: #FF6700;
+                }
+            }
+
+            span:nth-child(1) {
+                color: #FF6700;
+                p {
+                background: #FF6700;
+                border: 1px #FF6700 solid;
+                color: white;
+            }
+        }
+            i {
+                font-size: 25px;
+                color: #cccccc;
+                float: left;
+                text-align: center;
+                // margin-right: 5px;
+                width: 160px;
+
+            }
+        }
+    }
+}
+
+#cx_main {
+    background: rgb(245, 245, 245);
+    padding-top: 20px;
+
+    .cx_main {
+        background: white;
+        height: 80px;
+        border-bottom: 1px solid #cccccc;
+
+        ul {
+            float: left;
+            display: flex;
+
+            li {
+                padding: 0 20px;
+                height: 80px;
+                line-height: 80px;
+                text-align: center;
+                margin: 0 30px;
+                box-sizing: border-box;
+            }
+
+            li:hover {
+                color: #FF6700;
+
+            }
+        }
+
+        input {
+            float: right;
+            margin-top: 20px;
+            outline: none;
+
+        }
+
+        .cx_ipt {
+            width: 245px;
+            height: 40px;
+
+        }
+
+        .cx_sub {
+            width: 40px;
+            height: 44px;
+            background: white;
+            border: 1px solid #b0b0b0;
+            border-left: 0;
+
+        }
+
+        .cx_sub:hover {
+            background: #FF6700;
+        }
+    }
+
+    .cx_main2 {
+        background: white;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 40px;
+
+            li {
+                background: white;
+                width: 163px;
+                height: 62px;
+                padding: 10px;
+                line-height: 40px;
+                border: 1px solid #cccccc;
+                box-sizing: border-box;
+                text-align: center;
+                padding-left: 45px;
+                position: relative;
+
+
+                img {
+                    top: 12px;
+                    left: 20px;
+                    position: absolute;
+                    width: 44px;
+                    height: 19px;
+                    padding-top: 10px;
+                }
+
+            }
+
+            li:hover {
+                border: #FF6700 1px solid;
+            }
+        }
+    }
+
+    .cx_main3 {
+        background: white;
+
+        ul {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            li {
+                margin: 0 50px;
+                margin-top: 20px;
+                border: 1px solid white;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+
+                p {
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+            }
+
+            li:hover {
+                border: 1px solid #FF6700
+            }
+        }
+    }
+
+    ol{
+        height: 30px;
+        margin:50px 0;
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        li{
+            margin: 5px;
+            color: #b0b0b0;
+            font-size:18px;
+            width: 40px;
+            text-align: center;
+            line-height: 30px;
+            height: 30px;
+
+        }
+        li:hover{
+            background: rgb(117, 117, 117);
+            color: white;
+
+        }
+    }
+}
