@@ -69,10 +69,11 @@ function han() {
         // console.log(arrcd)
         var str = ''
         ajax({
-            url: './data/b_gwc.json',
+            url: './data/b_.json',
             type: 'get',
             data: '',
             success: function (data) {
+                console.log(data)
                 var json = JSON.parse(data)
                 for (var i = 0, len = json.length; i < len; i++) {
                     for (var j = 0; j < arrcd.length; j++) {
@@ -92,7 +93,7 @@ function han() {
                                     <a href="javascript:;" class="btn_right">+</a>
                                 </div>
                             </div>
-                            <div>${parseInt(json[i].price) * arrnum[j]}元</div>
+                            <div class="par">${parseInt(json[i].price) * arrnum[j]}元</div>
                             <div><span class="b_remove">X</span></div>
                         </div>`
                         }
@@ -111,7 +112,14 @@ function han() {
                     arrnum[dex] = $(this).next().val()
                     var shopobj = JSON.stringify({ "code": arrcd, "num": arrnum })
                     localStorage.setItem("shop", shopobj)
-                    han()
+                    $(this).parent().parent().next().html($(this).next().val()*parseInt($(this).parent().parent().prev().html())+'元')
+                    var sum = 0
+                    for (var i = 0; i < $('.checkAll').length; i++) {
+                        if ($('.checkAll').eq(i).prop('checked')) {
+                            sum += parseInt($('.checkAll').eq(i).parent().next().next().next().next().next().html())
+                        }
+                    }
+                    $('.b_em').html(sum)
                 })
 
                 $('.b_gwccot').on('click', '.btn_right', function () {
@@ -122,7 +130,15 @@ function han() {
                     arrnum[dex] = $(this).prev().val()
                     var shopobj = JSON.stringify({ "code": arrcd, "num": arrnum })
                     localStorage.setItem("shop", shopobj)
-                    han()
+                    $(this).parent().parent().next().html($(this).prev().val()*parseInt($(this).parent().parent().prev().html())+'元')
+                    var sum = 0
+                    for (var i = 0; i < $('.checkAll').length; i++) {
+                        if ($('.checkAll').eq(i).prop('checked')) {
+                            sum += parseInt($('.checkAll').eq(i).parent().next().next().next().next().next().html())
+                        }
+                    }
+                    $('.b_em').html(sum)
+                    // han()
                 })
 
 
@@ -175,10 +191,8 @@ $('.b_splb').on('click', '.b_remove', function () {
     arrcd = JSON.parse(localStorage.getItem("shop")).code
     arrnum = JSON.parse(localStorage.getItem("shop")).num
     var index = arrcd.indexOf($(this).parent().parent().attr('code'))
-    console.log(arrcd, arrnum)
     arrcd.splice(index, 1)
     arrnum.splice(index, 1)
-    console.log(arrcd, arrnum)
     var shopobj = JSON.stringify({ "code": arrcd, "num": arrnum })
     localStorage.setItem("shop", shopobj)
     $(this).parent().parent().remove()

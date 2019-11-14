@@ -1,0 +1,368 @@
+
+/* 头部 */
+.a_height56{
+    height: 56px;
+}
+.header{
+    width: 100%;
+    height: 56px;
+    background: #232323;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.a_container{
+    width: 1360px;
+    margin: 0 auto;
+   
+}
+.a_container .a_logo{
+    float: left;
+    width: 170px;
+}
+.a_container .a_logo a>span{
+    line-height: 56px;
+    font-size: 20px;
+    margin-left: 11px;
+    color: #ffffff;
+}
+.a_container .a_logo a{
+    display: block;
+    width: 170px;
+}
+.a_container .a_logo a img{
+    width: 34px;
+    height: 32px;
+    margin-top: 12px;
+}
+.a_navTop{
+    float: left;
+    color: #ffffff;
+}
+/* 登入 */
+.a_navRight{
+    float: right;
+    color: #ffffff;
+    /* display: none; */
+}
+.a_ctop a{
+    display: block;
+    height: 56px;
+    line-height: 56px;
+    width: 96px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    background: #232323;
+  
+}
+.a_cons{
+    display: inline-block;
+    line-height: 56px;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 0 20px;
+    width: 96px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.a_ctop>div>a:hover{    
+    color: #1a87fd;
+    background: #000000;
+   
+}
+.a_ctop{
+    display: none;
+    position: absolute;
+}
+.a_navRight:hover .a_ctop{
+    display: block;
+}
+.a_cons:hover{
+    color: #1a87fd;
+    background: #000000;
+}
+/* 导航*/
+.a_navList{
+   float: left;
+   width: 96px;
+}
+.a_navList:hover .a_ntop{
+    display: block;
+} 
+.a_ntop{
+    float: left;
+    display: none;
+    position:absolute;
+}
+.a_skill{
+    height: 56px;
+    line-height: 56px;
+    width: 96px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    background: #232323;
+}
+.a_skill:hover{
+    background: #000000;
+    color: #1a87fd;
+}
+.a_ntop>div>a{
+    display: block;
+    height: 56px;
+    line-height: 56px;
+    width: 96px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    background: #000000;
+}
+.a_ntop>.a_nt288{
+    width: 288px;
+}
+.a_ntop>.a_nt288>a{
+    display: inline-block;
+}
+.a_ntop>.a_nt288>.a_all{
+    display: inline-block; 
+}
+.a_ntop .a_posi{
+    display: inline-block;
+    width: 96px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    background: #000000;
+}
+.a_ntop>div>a:hover{
+    color: #1a87fd;
+}
+.a_ntop .a_posi:hover{
+    cursor: pointer;
+}
+.a_log{
+    float: right;
+    margin-top: 14px;
+    margin-left: 61px;
+    margin-right: 128px;
+}
+.a_log .a_login{
+    display: inline-block;
+    width: 76px;
+    height: 28px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    border-radius: 14px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.a_login:hover{
+    background: #1a87fd;
+    border: 1px solid #1a87fd;
+}
+.a_banner{
+    position: relative;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    margin: 0;
+    /* z-index: -1; */
+    top: 0;
+    left: 0;
+}
+.a_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5760px;
+    height: 480px;
+    
+}
+.a_banner img{
+    /* float: left; */
+    height: 480px;
+    width: 33.333%;
+ 
+}
+/* banner 按钮 */
+.a_btn{
+position: relative;
+    height: 20px;
+  top: -30px;
+  margin-left: 912px;
+  z-index: 2;
+}
+.a_btn>a{
+    display: inline-block;
+    width: 16px;
+    height: 3px;
+    background:rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+/* banner 内容 */
+.a_banimg2{
+    position: absolute;
+    left: 2280px;
+    top: 126px; 
+    width: 1200px;
+}
+.a_banimg2 .a_h1{
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+.a_banimg2>p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 68px;
+}
+.a_banimg2>div{
+   width: 600px;
+   margin: 0 auto;
+}
+.a_banimg2>div>a{
+    display: inline-block;
+    width: 260px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 20px;
+    background: #03e9fe;
+    color: #000000;
+    text-align: center;
+    margin-left: 38px;
+}
+.a_banimg2>div>a:nth-child(1){
+    margin:0;
+}
+.a_banimg2>div>a:hover{
+    background: #0f87fd;
+    color: #ffffff;
+    transition: all .5s cubic-bezier(.645,.045,.355,1);
+    z-index: 999999;
+}
+.a_banimg3{
+    position: absolute;
+    left: 4200px;
+    top: 126px; 
+    width: 1200px;
+}
+.a_banimg3>p{
+    letter-spacing: 44px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+.a_banimg3 .a_h1{
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 40px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.a_banimg3>a{
+    display: block;
+    width: 258px;
+    height: 56px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 56px;
+    border: 1px solid #628dff;
+    box-shadow: 0 0 8px 3px #3638e0;
+    margin-left: 450px;
+    color: #ffffff;
+}
+.a_banimg3>a:hover{
+    background: #638dfd;
+    color: #ffffff;
+    transition: all 1s ease-in-out;
+    z-index: 999999;
+}
+
+/* main */
+.a_sort>h2,.a_sort1>h2{
+    text-align: center;
+    line-height: 70px;
+    font-size: 32px;
+    margin-top: 40px;
+}
+.a_sort>p,.a_sort1>p{
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+.a_sort1>p{
+    margin-bottom: 50px;
+}
+.a_sort figure{
+    float: left;
+    margin-top: 60px;
+    height: 374px;
+}
+.a_sort figure>img{
+    width: 316px;
+    height: 120px;
+    margin-right: 32px;
+    margin-bottom: 22px;
+}
+.a_sort .a_xiaoaiR{
+    margin-right: 0;
+}
+.a_sort figure figcaption>p{
+    line-height: 58px;
+    font-size: 16px;
+    color: #000000;
+}
+.a_sort figure figcaption>span{
+    display: block;
+    width: 316px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #8a8a8a;
+    height: 44px;
+}
+.a_sort1 figure{
+    float: left;
+    margin-right: 20px;
+}
+.a_sort1 figure img{
+  
+    width: 590px;
+    height: 294px;
+}
+.a_marLeft{
+    margin-left:140px;
+}
+.a_sort1 figure figcaption{
+    text-align: center;
+    line-height: 44px;
+    margin-bottom: 19px;
+    font-size: 12px;
+}
+
+/* 到顶部按钮 */
+.a_xiaoaibtn{
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    right: 110px;
+    top: 380px;
+    display: none;
+}
+.a_xiaoaibtn>img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}

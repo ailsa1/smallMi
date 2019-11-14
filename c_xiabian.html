@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/cx.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="cx_header">
+
+        <div class="cx_header container">
+            <h6><span>首页 </span>/<span>小米以旧换新</span>/<span>选择设备型号</span></h6>
+
+            <div class="cx_box">
+                <span>
+                    <p>1</p>
+                    选择设备型号
+                </span>
+                <i>. . . . . . . .</i>
+
+                <span>
+                    <p>2</p>
+                    描述设备情况
+                </span>
+                <i>. . . . . . . .</i>
+
+                <span>
+                    <p>3</p>
+                    获取回收报价
+                </span>
+                <i>. . . . . . . .</i>
+
+                <span>
+                    <p>4</p>
+                    提交以旧换新订单
+                </span>
+            </div>
+        </div>
+
+    
+    </header>
+
+    <main id="cx_main">
+        <div class="cx_main container">
+            <ul>
+                <li class="c_sj">手机</li>
+                <li class="c_pb">平板</li>
+                <li>笔记本电脑</li>
+                <li>家电</li>
+            </ul>
+            <input type="submit" value="🔍" class="cx_sub">
+            <input type="text" class="cx_ipt" placeholder=" 搜索手机、平板或笔记本型号">
+        </div>
+
+        <div class="cx_main2 container">
+<ul class="ul0">
+    <li><img src="img/cx1.png" alt=""><span>小米</span></li>
+    <li><img src="img/cx2.png" alt="">苹果</li>
+    <li><img src="img/cx3.png" alt="">华为</li>
+    <li><img src="img/cx4.png" alt="">vivo</li>
+    <li><img src="img/cx5.png" alt="">OPPO</li>
+    <li><img src="img/cx6.png" alt="">三星</li>
+    <li><img src="img/cx7.png" alt="">魅族</li>
+    <li><img src="img/cx8.png" alt="">金立</li>
+    <li><img src="img/cx9.png" alt="">乐视</li>
+    <li><img src="img/cx10.png" alt="">一加</li>
+    <li><img src="img/cx11.png" alt="">黑鲨科技</li>
+    <li><img src="img/cx12.png" alt="">荣耀</li>
+</ul>
+<!-- <ul class="ul1">
+
+</ul> -->
+        </div>
+        
+<div class="cx_main3 container">
+            <!-- ul>li{$$}*5  -->
+
+    <ul>
+        <!-- (li>img[src="img/cy$.png"])*7 -->
+        <!-- <li><img src="img/cy1.png" alt=""><p>红米6A</p></li>
+        <li><img src="img/cy2.png" alt=""><p>红米6</p></li>
+        <li><img src="img/cy3.png" alt=""><p>小米手机8 透明探索版</p></li>
+        <li><img src="img/cy4.png" alt=""><p>小米手机8 (后指纹版)</p></li>
+        <li><img src="img/cy5.png" alt=""><p>小米手机6</p></li>
+        <li><img src="img/cy6.png" alt=""><p>小米手机8 屏幕指纹版</p></li>
+        <li><img src="img/cy7.png" alt=""><p>小米 MIX2</p></li>
+        <li><img src="img/cy8.png" alt=""><p>红米Note 4X</p></li>      -->
+    </ul>
+
+    <ol >
+            <li>&lt;</li>
+
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <!-- <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li> -->
+        <li>6</li>
+        <li>&gt;</li>
+
+    </ol>
+</div>
+
+    </main>
+</body>
+<script src="js/jquery.min.js"></script>
+<script>
+    function xiaomi(){
+$(function () {
+    $.ajax({
+        //请求方式为get
+        type: "GET",
+        //json文件位置
+        url: "./data/c_shuju.json",
+        //返回数据格式为json
+        dataType: "json",
+        //请求成功完成后要执行的方法
+        success: function (data) {
+            //使用$.each方法遍历返回的数据date,插入到id为#result中
+            var str = '';
+            $.each(data, function (i, n) {
+                // str += n["item1"] + "</span>" + "|" + "<span>" + n["item2"] + '</span>';
+        
+              str+='<li code='+n['code']+'><img src="'+n['imgurl']+'" alt=""><p>'+n['type']+'</p></li>';
+                
+            })
+            $('.cx_main3 ul').html(str);
+          
+        }
+    });
+});}
+
+xiaomi()
+
+$('.c_sj').on('click',function(){
+    xiaomi()
+
+})
+$('.c_pb').on('click',function(){
+    $(function () {
+    console.log(666)
+       
+    $.ajax({
+        //请求方式为get
+        type: "GET",
+        //json文件位置
+        url: "./data/c_shuju2.json",
+        //返回数据格式为json
+        dataType: "json",
+        //请求成功完成后要执行的方法
+        success: function (data) {
+            //使用$.each方法遍历返回的数据date,插入到id为#result中
+            var str = '';
+            $.each(data, function (i, n) {
+                // str += n["item1"] + "</span>" + "|" + "<span>" + n["item2"] + '</span>';
+                console.log(n)
+      
+                // if(n>5){
+                    // return; 
+        
+        // }
+              str+='<li code='+n['code']+'><img src="'+n['imgurl']+'" alt=""><p>'+n['type']+'</p></li>';
+                
+            })
+            $('.cx_main3 ul').html(str);
+          
+        }
+    });
+});
+})
+
+$('.cx_main3 ul').on('click','li',function(){
+   var code =$(this).attr('code')
+    localStorage.setItem('c_code',code);
+  console.log(localStorage.getItem('c_code'));
+    location.href='./d_Aftersale.html'
+})
+</script>
+<script src="js/c_xia.js"></script>
+</html>
