@@ -13,43 +13,44 @@
 </head>
 
 <body>
+    <div class="b_header"></div>
     <div class="bg">
         <div class="b_con">
             <div class="b_content">
                 <ul class="clearfix">
-                    <li class="li1 bgcol">
+                    <li class="li1 bgcol" abc='b1'>
                         <em>10:00</em>
-                        <span class="clearfix">
+                        <span class="clearfix" style="text-align: left;">
                             <div>抢购中</div>
-                            <div class="b_djs"><em>距结束</em><i>05</i>:<i>59</i>:<i>59</i></div>
+                            <div class="b_djs"><em class="em"></em></div>
                         </span>
                     </li>
-                    <li class="li2">
-                        <em>10:00</em>
-                        <span class="clearfix">
-                            <div>抢购中</div>
-                            <div class="b_djs"><em>距结束</em><i>05</i>:<i>59</i>:<i>59</i></div>
+                    <li class="li2" abc='b2'>
+                        <em>14:00</em>
+                        <span class="clearfix" style="text-align: left;">
+                            <div>即将开始</div>
+                            <div class="b_djs"><em class="em"></em></div>
                         </span>
                     </li>
-                    <li class="li3">
-                        <em>10:00</em>
-                        <span class="clearfix">
-                            <div>抢购中</div>
-                            <div class="b_djs"><em>距结束</em><i>05</i>:<i>59</i>:<i>59</i></div>
+                    <li class="li3" abc='b3'>
+                        <em>18:00</em>
+                        <span class="clearfix" style="text-align: left;">
+                            <div>即将开始</div>
+                            <div class="b_djs"><em  class="em"></em></div>
                         </span>
                     </li>
-                    <li class="li4">
-                        <em>10:00</em>
-                        <span class="clearfix">
-                            <div>抢购中</div>
-                            <div class="b_djs"><em>距结束</em><i>05</i>:<i>59</i>:<i>59</i></div>
+                    <li class="li4" abc='b4'>
+                        <em>20:00</em>
+                        <span class="clearfix" style="text-align: left;">
+                            <div>即将开始</div>
+                            <div class="b_djs"><em class="em"></em></div>
                         </span>
                     </li>
-                    <li class="li5">
-                        <em>10:00</em>
-                        <span class="clearfix">
-                            <div>抢购中</div>
-                            <div class="b_djs"><em>距结束</em><i>05</i>:<i>59</i>:<i>59</i></div>
+                    <li class="li5" abc='b5'>
+                        <em>22:00</em>
+                        <span class="clearfix" style="text-align: left;">
+                            <div>即将开始</div>
+                            <div class="b_djs"><em class="em"></em></div>
                         </span>
                     </li>
                 </ul>
@@ -76,9 +77,18 @@
             </div>
         </div>
     </div>
+    <div class="b_footer"></div>
 </body>
 <script src="http://libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
 <script src="./js/b_gj.js"></script>
 <script src="./js/b_seckill.js"></script>
+<script>
+
+$(function(){
+    $('.b_header').load('./comm/head.html')
+    $('.b_footer').load('./comm/footer.html')
+})
+
+</script>
 
 </html>
