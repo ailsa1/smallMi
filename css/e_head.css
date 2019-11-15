@@ -1,0 +1,335 @@
+/* 首页头部 */
+
+#header {
+    height: 40px;
+    background: #333;
+}
+
+
+/* 头部左边-城市切换 */
+
+.siteLeft {
+    float: left;
+    /* width: 80px; */
+}
+
+.siteLeft .ui-areamini-text {
+    font-size: 12px;
+    color: #999;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.siteLeft .list_city {
+    position: absolute;
+    top: 38px;
+    width: 250px;
+    min-height: 200px;
+    background: #ffffff;
+    border-top: none;
+    padding: 10px;
+    z-index: 999;
+    border: 1px solid #000;
+    display: none
+}
+
+.siteLeft:hover .list_city {
+    display: block;
+}
+
+.list_city ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    position: absolute;
+    z-index: 11;
+}
+
+.list_city ul li {
+    width: 40px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#list li:hover a {
+    color: red;
+}
+
+#list li:nth-of-type(1) {
+    background: red;
+}
+
+
+/* 头部中间-导航栏 */
+
+.siteCenter {
+    float: left;
+    margin-left: 100px;
+}
+
+.siteCenter ul li {
+    float: left;
+    color: #423c37;
+    height: 40px;
+    line-height: 40px;
+}
+
+.siteCenter ul li a {
+    color: #b0b0b0;
+}
+
+.siteCenter ul li a:hover {
+    color: #fff;
+}
+
+.siteCenter ul li:nth-child(even) {
+    margin: 0 3px;
+}
+
+
+/* 头部右边-登录模块 */
+
+.login {
+    float: right;
+}
+
+.login>ul>li {
+    position: relative;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.denglu {
+    position: absolute;
+    z-index: 55;
+    top: 0px;
+    right: -1px;
+    width: 100px;
+    height: 40px;
+    background: #333;
+}
+
+.username {
+    width: 110px;
+    text-align: center;
+    color: #b0b0b0;
+    /* display: none; */
+}
+
+.login ul li .denglu a {
+    font-size: 14px;
+    color: #424242;
+}
+
+.login ul li .denglu .username a {
+    color: #b0b0b0;
+}
+
+.login ul li .denglu a:hover {
+    color: #ff6700;
+}
+
+.login ul li .denglu .dlcg {
+    width: 110px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.18);
+    display: none;
+}
+
+
+/* .login ul li .denglu .dlcg li:first-child {
+    padding-top: 10px;
+} */
+
+.login ul li .denglu .dlcg .exit {
+    padding-bottom: 10px;
+}
+
+.denglu>ul>li {
+    padding: 0 3px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    height: 30px;
+}
+
+.denglu i {
+    float: right;
+    margin: 3px;
+}
+
+.login>ul>li>a {
+    color: #b0b0b0;
+}
+
+.login ul li a:hover {
+    color: #fff;
+}
+
+.login>ul>li:nth-child(even) {
+    margin: 0 4px;
+    color: #423c37;
+}
+
+.siteCenter ul li:nth-child(21) {
+    position: relative;
+}
+
+.siteCenter ul li:nth-child(21):hover .QRcode {
+    display: block;
+}
+
+.siteCenter ul li:nth-child(21):hover .xm_text {
+    display: block;
+}
+
+.QRcode {
+    width: 124px;
+    height: 150px;
+    background: url(../img/QRcode.jpg);
+    box-shadow: 0 0 5px #ccc;
+    position: absolute;
+    z-index: 50;
+    top: 40px;
+    left: -75%;
+    display: none;
+}
+
+.xm_text {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 30px;
+    margin-left: 15px;
+    display: none;
+}
+
+
+/* 购物车 */
+
+.cart {
+    width: 120px;
+    text-align: center;
+    margin-left: 15px;
+    float: right;
+    height: 40px;
+    background: #424242;
+    position: relative;
+}
+
+.cart a {
+    display: block;
+    color: #b0b0b0;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.cart a i {
+    margin-right: 5px;
+}
+
+.cart:hover>a {
+    color: #ff6700;
+}
+
+
+/* .cart:hover{
+    background:#fff;
+    
+} */
+
+
+/* .cart:hover .carts{
+    display: block;
+} */
+
+.carts {
+    width: 316px;
+    line-height: 100px;
+    text-align: center;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+    display: none;
+    z-index: 30;
+}
+
+.cart:hover .carts {
+    display: block;
+}
+
+.fullcar {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 50;
+    width: 316px;
+    padding: 0 10px;
+    color: #424242;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    display: none;
+    box-sizing: border-box;
+}
+
+.fullcar .car-list li {
+    padding-left: 10px;
+    background: #fff;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.fullcar .car-list li a {
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 70px;
+    height: 70px;
+    /* float: left; */
+}
+
+.fullcar .car-list li a img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+}
+
+.total {
+    height: 80px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.total p .nums {
+    margin: 10px;
+    float: left;
+}
+
+.taotal p .nums .price {
+    font-size: 18px;
+}
+
+.total p a {
+    float: right;
+    margin-top: 10px;
+    line-height: 50px;
+    width: 180px;
+    background: #ff6700;
+    color: #fff;
+    height: 50px;
+}
+
